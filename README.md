@@ -62,7 +62,7 @@ Creación de tablas
 
 
 ```javascript
-Se trabajó en equipo con | Jira  | Metodología Ágil  | 2 Sprints | para el Bootcamp INICIATEC by MINDHUB - 2023.
+Se trabajó en equipo con | Jira  | Metodología Ágil Marco SCRUM | 2 Sprints | para el Bootcamp INICIATEC by MINDHUB - 2023.
  
 
 
