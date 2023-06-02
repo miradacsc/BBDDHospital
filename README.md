@@ -1,4 +1,4 @@
-# Base de Datos requerida por el Hospital Regional Mindhub 
+# Base de Datos requerida por el Hospital Regional Mindhub.
 
 ![Hospital](https://github.com/miradacsc/BBDDHospital/assets/74154572/f12bfd39-8c83-42d8-8f30-60361d38a5a2)
 
@@ -17,13 +17,24 @@
 >>>>>> Validar modificar numero de obra social <br>
 >>>>>> Validar relación entre paciente, médico y turno <br>
 
+
 ### Requerimientos
+- [x] Tabla Pacientes
+    - [ ] Identificador.
+    - [ ] Nombre: Longitud 50 caracteres.
+    - [ ] Edad: 2 digitos.
+    - [ ] Nro de asociado.
+- [x] Tabla Médicos
+    - [ ] Identificador.
+    - [ ] Nombre: Longitud 50 caracteres. 
+    - [ ] Especialidad: Longitud 50 caracteres.
+- [x] TablaTurnos
+    - [ ] Identificador.
+    - [ ] Paciente: id_paciente. 
+    - [ ] Médico: id_medico.
+    - [ ] Nota: Horario de servicio.
 
-- Tabla Pacientes (identificador, nombre paciente, edad, número de asociado obra social)
-- Tabla Médico(identificador, nombre médico, especialidad)
-- Tabla Turnos(identificador, paciente, médico, nota)
-
-### EDR
+### Diagrama Entidad Relación [EDR]
 
 ![EDR](https://github.com/miradacsc/BBDDHospital/assets/74154572/ef4e01f2-eb1f-4766-b886-60838a72cb62)
 
@@ -39,3 +50,19 @@ Creación de tablas
 
 > INSERT Turnos
 ![Insert Turnos](https://github.com/miradacsc/BBDDHospital/assets/74154572/41bbdd3c-5187-482d-9562-dbe59845aedb)
+
+***Relación entre las tablas***
+-------------
+
+![Relación](https://github.com/miradacsc/BBDDHospital/assets/74154572/adff25bd-50b1-44a6-b1b0-0a9ddb47572b)
+
+> Ejemplo de uno de los Test Cases trabajados en JIRA: 
+> 
+>> ![TC_Jira](https://github.com/miradacsc/BBDDHospital/assets/74154572/157106f7-a60c-44d0-a6ff-4f68558dc481)
+
+
+```javascript
+Se trabajó en equipo con | Jira  | Metodología Ágil  | 2 Sprints | para el Bootcamp INICIATEC by MINDHUB - 2023.
+ 
+
+
